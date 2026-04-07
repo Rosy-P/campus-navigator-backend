@@ -12,11 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-$host = 'mysql.railway.internal';
+$host = 'maglev.proxy.rlwy.net';
 $username = 'root';
 $password = 'BZxOqkRtcTIFlFAUdSrZARaDbHDjppUQ';
 $database = 'railway';
-$port = 3306;
+$port = 40980;
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
