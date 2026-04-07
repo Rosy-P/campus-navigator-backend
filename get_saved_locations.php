@@ -1,12 +1,5 @@
 <?php
-/**
- * get_saved_locations.php
- * Fetch saved locations for a user
- */
-ini_set('session.cookie_samesite', 'None');
-ini_set('session.cookie_secure', '1');
 
-session_start();
 // ✅ CORS headers
 header("Access-Control-Allow-Origin: https://navigator-tau-three.vercel.app");
 header("Access-Control-Allow-Credentials: true");
